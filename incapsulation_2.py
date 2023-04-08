@@ -20,5 +20,5 @@ class Human():
 
 Zakhar = Human('Zakhar', 'Dvurechensky', 20, 'DevOps')
 print(Zakhar.name)
-Zakhar.name = "Ivan"
+Zakhar.name = "Mark"
 print(Zakhar.name)

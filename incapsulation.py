@@ -16,10 +16,9 @@ class Human():
 
 
 Zakhar = Human('Zakhar', 'Dvurechensky', 20, 'DevOps')
-print(Zakhar.name())
-Zakhar.set_name("Maria")
-print(Zakhar.name())
-Zakhar.set_name(123)
+Zakhar.set_name("Maria❤️")
+
+
 
 
 

@@ -25,7 +25,7 @@ def main():
     with DBAccessor(DBD_CRES) as cUrsor:
         for row in cursor.execute("SELECT * FROM user"):
             print(row)
-    """Чтобы не дублировать эти строчки были реализованы функции сверху!"""
+    """Чтобы не дублировать эти строчки были реализованы функции сверху! (ООП подход)"""
     # connection = sqlite3.connect(**DB_CREDS)
     # cursor = connection.cursor()
     # for row in cursor.execute("SELECT * FROM user"):
